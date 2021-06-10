@@ -1,5 +1,5 @@
 body {
-    background-image: url("piste.jpeg");
+    background-image: url("static/images/piste.jpeg");
     background-size:cover;
     background-repeat:no-repeat;
 }
