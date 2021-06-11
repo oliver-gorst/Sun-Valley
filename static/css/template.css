@@ -19,12 +19,13 @@ li {
       text-decoration: none;
 }
 
-#home h2 {
-    color:royalblue;
-}
-
 h2 {
     color:violet;
+}
+
+#home {
+    color:yellowgreen;
+    font-style: italic;
 }
 
 p {
