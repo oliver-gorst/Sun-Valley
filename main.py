@@ -9,18 +9,19 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return render_template("home.html")
-    
-@app.route("/sunvalley")
-def sunvalley():
-    return render_template("sunvalley.html")
-
-@app.route("/vail")
-def vail():
-    return render_template("vail.html")
 
 @app.route("/feature1")
 def feature1():
     return render_template("feature1.html")
+
+@app.route("/feature2")
+def feature2():
+    return render_template("feature2.html")
+
+@app.route("/feature3")
+def feature3():
+    return render_template("feature3.html")
+
 
 @app.route("/convert")
 def index():
@@ -50,6 +51,4 @@ def meters_from(feet):
 
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=8080, debug=True)
-#Do the lines above and below this do the same thing?
-if __name__ == "__main__":
-    app.run(debug=True)
+

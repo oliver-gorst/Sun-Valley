@@ -12,9 +12,15 @@ h1 {
 }
 
 li {
-      color:yellow;
+      color:rgb(224, 97, 224);
       font-size: 35px;
       font:Georgia;
+      list-style-type: none;
+      text-decoration: none;
+}
+
+#home h2 {
+    color:royalblue;
 }
 
 h2 {
