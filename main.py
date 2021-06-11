@@ -18,9 +18,9 @@ def sunvalley():
 def vail():
     return render_template("vail.html")
 
-@app.route("/beavercreek")
-def beavercreek():
-    return render_template("beavercreek.html")
+@app.route("/feature1")
+def feature1():
+    return render_template("feature1.html")
 
 @app.route("/convert")
 def index():
