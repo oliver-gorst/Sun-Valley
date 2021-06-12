@@ -6,9 +6,11 @@ body {
   
 h1 {
     color: navy;
-    font:helvetica;
+    font-family: sans-serif;
     font-size: 80px; 
     margin-left: 30px;
+    list-style-type: none;
+    text-align: center;
 }
 
 li {
@@ -17,17 +19,73 @@ li {
       font:Georgia;
       list-style-type: none;
       text-decoration: none;
+      text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: teal;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+a:visited, a:link, a:hover {
+    color: teal;
 }
 
 h2 {
-    color:violet;
+    color:rgb(130, 216, 238);
+    text-align: center;
 }
 
 #home {
     color:yellowgreen;
-    font-style: italic;
+    font-family: sans-serif;
+    text-align:center;
 }
 
 p {
     color:white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#mainTitleDiv {
+    background-color: thistle;
+    opacity: 0.6;
+}
+
+#featureTitle {
+    font-size: 50px;
+}
+
+img {
+    justify-content: center;
+}
+
+
+/* SMALL AND MOBILE DEVICES ONLY */
+@media (max-width: 767px) {
+    /* #cup img {
+        height: 125px;
+        width: 125px;
+        border: 3px solid rgba(0, 0, 0, 0.342);
+    }
+    #course img {
+        height: 150px;
+        width: 150px;
+        border: 3px solid rgba(0, 0, 0, 0.342);
+    }
+    #cup h2 {
+        font-size: 35px;
+        margin-top: 15px;
+    } */
+}
+
+/* LARGE AND MEDIUM DEVICES */
+@media (min-width: 768px) {
+    /* #instructions {
+    font-size: 30px;
+    color: black;
+    } */
 }

@@ -2,16 +2,18 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Feature 2</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/template.css') }}">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
   </head>
   <body>
     {% extends "template.html" %}
     {% block content %}
     
-    <h1> Information about Feature 2</h1>
+    <h1 id="featureTitle"> Information about Feature 2</h1>
     <p>New feature coming soon.</p>
-    <img src="https://skimap.org/data/480/7/1255396054jpg_render.jpg" height="500"/>
+    <img src="https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2019Q4/feature-driven-development/feature-driven-development-header.png" height="500"/>
       
     {% endblock %}
   </body>

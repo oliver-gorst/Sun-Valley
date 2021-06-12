@@ -2,13 +2,18 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Flask Parent Template</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/template.css') }}">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
   </head>
   <body>
     <header>
       <div class="container">
-        <h1 class="logo">Sun Valley Project</h1>
+        <div id="mainTitleDiv" class="col-12 col-sm-12 col-md-12 col-lg-12">
+          <h1 class="logo">Sun Valley Project</h1>
+        </div>  
         <strong><nav>
           <ul class="menu">
             <li><a href="{{ url_for('home') }}">Home</a></li>

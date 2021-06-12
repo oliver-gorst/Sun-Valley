@@ -2,16 +2,18 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Feature 1</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/template.css') }}">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
   </head>
   <body>
     {% extends "template.html" %}
     {% block content %}
     
-    <h1> Information about Feature 1 </h1>
+    <h1 id="featureTitle"> Information about Feature 1 </h1>
     <p> New feature coming soon.</p>
-    <img src="https://s3.onthesnow.com/images/trailmaps/colorado/beaver-creek/20150218124306/xlarge.jpg" height="650"/>
+    <img src="https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2019Q4/feature-driven-development/feature-driven-development-header.png" height="650"/>
       
     {% endblock %}
   </body>
