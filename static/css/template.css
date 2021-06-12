@@ -1,7 +1,14 @@
+/* MAIN SITE GENERAL */
+
 body {
     background-image: url("https://miro.medium.com/max/4400/1*wreVGDeTuuRyM4CEIjONFw.jpeg");
     background-size:cover;
     background-repeat:no-repeat;
+}
+
+#mainTitleDiv {
+    background-color: thistle;
+    opacity: 0.6;
 }
   
 h1 {
@@ -33,10 +40,14 @@ a:visited, a:link, a:hover {
     color: teal;
 }
 
-h2 {
-    color:rgb(130, 216, 238);
+p {
+    color:white;
+    font-family: sans-serif;
     text-align: center;
+    font-size: 20px;
 }
+
+/* HOME PAGE */
 
 #home {
     color:yellowgreen;
@@ -44,15 +55,13 @@ h2 {
     text-align:center;
 }
 
-p {
-    color:white;
-    font-family: sans-serif;
-    text-align: center;
-}
 
-#mainTitleDiv {
-    background-color: thistle;
-    opacity: 0.6;
+/* FEATURES */
+
+#googleMap {
+    width: 600px;
+    height: 450px;
+    border: 0;
 }
 
 #featureTitle {
@@ -63,29 +72,22 @@ img {
     justify-content: center;
 }
 
+#feature {
+    text-align: center;
+}
+
+
+
 
 /* SMALL AND MOBILE DEVICES ONLY */
 @media (max-width: 767px) {
-    /* #cup img {
-        height: 125px;
-        width: 125px;
-        border: 3px solid rgba(0, 0, 0, 0.342);
+    #home {
+        color: purple;
     }
-    #course img {
-        height: 150px;
-        width: 150px;
-        border: 3px solid rgba(0, 0, 0, 0.342);
-    }
-    #cup h2 {
-        font-size: 35px;
-        margin-top: 15px;
-    } */
+
 }
 
 /* LARGE AND MEDIUM DEVICES */
 @media (min-width: 768px) {
-    /* #instructions {
-    font-size: 30px;
-    color: black;
-    } */
+
 }

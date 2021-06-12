@@ -10,11 +10,15 @@
   <body>
     {% extends "template.html" %}
     {% block content %}
-    
-    <h1 id="featureTitle"> Information about Feature 3 </h1>
-    <p>New feature coming soon.</p>
-    <img src="static/images/feature.png" height="650"/>
-      
+    <div id="mainContent" class="container text-center">
+      <section class="row">
+        <div>
+          <h1 id="featureTitle"> Information about Feature 3 </h1>
+          <p>New feature coming soon.</p>
+          <img src="static/images/feature.png" height="650"/>
+      </div>
+     </section>
+    </div>
     {% endblock %}
   </body>
 </html>
