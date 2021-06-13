@@ -6,19 +6,28 @@ body {
     background-repeat:no-repeat;
 }
 
-#mainTitleDiv {
+/* #mainTitleDiv {
     background-color: thistle;
     opacity: 0.6;
-}
+} */
   
 h1 {
     color: navy;
     font-family: sans-serif;
     font-size: 80px; 
-    margin-left: 30px;
     list-style-type: none;
     text-align: center;
 }
+
+#SVP {
+    background: cornflowerblue;
+    padding: 10px;
+}
+
+/* #featureList {
+    background-color: thistle;
+    opacity: 0.6;
+} */
 
 li {
       color:rgb(224, 97, 224);
@@ -55,6 +64,11 @@ p {
     text-align:center;
 }
 
+/* #mainContent {
+    background-color: thistle;
+    opacity: 0.6; 
+} */
+
 
 /* FEATURES */
 
@@ -70,6 +84,7 @@ p {
 
 img {
     justify-content: center;
+    width: 100%;
 }
 
 #feature {
